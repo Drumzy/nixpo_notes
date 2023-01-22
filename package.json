@@ -1,0 +1,43 @@
+{
+  "name": "nixpo_notes",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "tauri": "tauri"
+  },
+  "dependencies": {
+    "@codemirror/commands": "^6.2.0",
+    "@codemirror/lang-markdown": "^6.0.5",
+    "@codemirror/language-data": "^6.1.0",
+    "@codemirror/state": "^6.2.0",
+    "@codemirror/view": "^6.7.3",
+    "@tauri-apps/api": "^1.2.0",
+    "@types/react-syntax-highlighter": "^15.5.6",
+    "@uiw/codemirror-extensions-langs": "^4.19.7",
+    "@uiw/react-codemirror": "^4.19.7",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.7.1",
+    "react-markdown": "^8.0.5",
+    "react-router-dom": "^6.7.0",
+    "react-syntax-highlighter": "^15.5.0",
+    "remark-gfm": "^3.0.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/typography": "^0.5.9",
+    "@tauri-apps/cli": "^1.2.2",
+    "@types/node": "^18.11.18",
+    "@types/react": "^18.0.26",
+    "@types/react-dom": "^18.0.10",
+    "@vitejs/plugin-react": "^3.0.1",
+    "autoprefixer": "^10.4.13",
+    "postcss": "^8.4.21",
+    "tailwindcss": "^3.2.4",
+    "typescript": "^4.9.4",
+    "vite": "^4.0.4"
+  }
+}
